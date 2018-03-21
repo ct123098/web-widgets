@@ -1,0 +1,10 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Microsoft Yahei", SimSun, Arial, Tahoma, Verdana;
+}
+#Canvas {
+	display: block;
+	position: absolute;
+	border: 5px white solid;
+}

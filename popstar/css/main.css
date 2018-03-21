@@ -1,0 +1,60 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Microsoft Yahei", SimSun, Arial, Tahoma, Verdana;
+}
+#Canvas {
+	display: block;
+	position: absolute;
+	border: 5px black solid;
+}
+#Container {
+	position: absolute;
+	border: 5px white solid;
+}
+.cell {
+	display: inline-block;
+	position: absolute;
+	box-sizing: border-box;
+	transition: 
+		left 500ms ease-in, 
+		top 500ms ease-in, 
+		opacity 200ms;
+}
+.cell-color1 {
+	background: #EC6670;
+}
+.cell-color2 {
+	background: #FD9E72;
+}
+.cell-color3 {
+	background: #FEF67A;
+}
+.cell-color4 {
+	background: #38AA68;
+}
+.cell-color5 {
+	background: #76A4DF;
+}
+.cell-hidden {
+	opacity: 0;
+}
+.cell-focused {
+	border: #757575 5px solid;
+}
+.cell-focused-top {
+	border-top: #757575 5px solid;
+}
+.cell-focused-bottom {
+	border-bottom: #757575 5px solid;
+}
+.cell-focused-left {
+	border-left: #757575 5px solid;
+}
+.cell-focused-right {
+	border-right: #757575 5px solid;
+}
+.score {
+	text-align: center;
+	font-size: 50px;
+}
