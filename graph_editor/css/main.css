@@ -12,14 +12,14 @@ html, body {
 	max-width: 1366px;
 	margin: 0 auto;
 	overflow: hidden;
-	background: rgba(127, 127, 127, 0.5);
+	/*background: rgba(127, 127, 127, 0.5);*/
 }
 
 #Div_sidebar {
 	position: absolute;
 	width: 33%;
 	height: 100%;
-	background: rgba(255, 31, 31, 0.1);
+	/*background: rgba(255, 31, 31, 0.1);*/
 }
 
 #Div_toolbar {
@@ -28,7 +28,8 @@ html, body {
 	width: 67%;
 	height: 128px;
 	padding-top: 64px;
-	background: rgba(31, 255, 31, 0.1);
+	text-align: center;
+	/*background: rgba(31, 255, 31, 0.1);*/
 }
 
 #Div_display {
@@ -36,14 +37,15 @@ html, body {
 	left: 33%;
 	width: 67%;
 	height: calc(100% - 128px);
-	background: rgba(31, 31, 255, 0.1);
+	/*background: rgba(31, 31, 255, 0.1);*/
 }
 
 #Div_title {
 	position: relative;
 	width: 100%;
 	height: 128px;
-	background: rgba(255, 255, 31, 0.1);
+	padding: auto;
+	/*background: rgba(255, 255, 31, 0.1);*/
 }
 #Div_title h1 {
 	padding: 32px 0;
@@ -55,7 +57,7 @@ html, body {
 	position: absolute;
 	width: 72px;
 	height: calc(100% - 128px);
-	background: rgba(255, 31, 255, 0.1);
+	/*background: rgba(255, 31, 255, 0.1);*/
 }
 
 #Div_content {
@@ -63,7 +65,7 @@ html, body {
 	width: 100%;
 	height: calc(100% - 128px);
 	padding-left: 72px;
-	background: rgba(31, 255, 255, 0.1);
+	/*background: rgba(31, 255, 255, 0.1);*/
 }
 
 #Svg_display {
